@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&family=Roboto:wght@100;500&display=swap');
+*{
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+font-size: 20px;
+}
+header{
+    background-color: #0a516d;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+
+.header .logo{
+    cursor: pointer;
+ 
+  
+}
+.header .logo img{
+    height: 50px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2)
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display:inline-block; 
+    padding: 0 20px;
+}
+.header .nav-links li:hover{
+  transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #7dad93;
+    text-decoration: none;
+}
+
+.header .nav-links a:hover{
+    font-size: 700;
+    color: #2b2726;
+    text-decoration: none;
+}
+
+.header .btn button{
+    font-weight: 500;
+    color: #0a516d;
+    padding: 9px 25px;
+    background: #bacca4;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header .btn button:hover{
+   background-color: yellow;
+   color: white;
+   transform: scale(1.1);
+}
+.inicial{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    
+}
+.titulo{
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    
+
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+.materiales{
+    display: flex;
+   
+    justify-content: center;
+    background-color: antiquewhite;
+    height:  auto;
+}
+
+table {
+    
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 80%;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #000;
+ }
+.imagen-medidor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.medidor1{
+width: 500px;
+height: auto;
+}
